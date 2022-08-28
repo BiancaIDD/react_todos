@@ -4,35 +4,34 @@
   box-sizing: border-box;
 }
 
-.sign__conteiner{
+.sign__conteiner {
   width: 100%;
   height: 100vh;
-  background-color: #9F86C0;
+  background-color: #9f86c0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px
+  gap: 50px;
 }
 
-.sign__box{
+.sign__box {
   width: 35%;
   height: 400px;
   display: flex;
-  background-color:#D4E09B ;
-  flex-direction:column;
+  background-color: #d4e09b;
+  flex-direction: column;
   align-items: center;
   font-size: large;
   border-radius: 25px;
 }
 
-.sign__title{
+.sign__title {
   display: flex;
   align-items: center;
   gap: 20px;
-
 }
 
-form{
+form {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,28 +39,29 @@ form{
   gap: 25px;
 }
 
-#Username, #Password{
+#Username,
+#Password {
   height: 30px;
   width: 350px;
 }
 
-.sign__azul{
+.sign__azul {
   display: flex;
   width: 93px;
   height: 101px;
 }
 
-.buton{
+.buton {
   font-size: large;
   width: 200px;
   height: 40px;
   border-radius: 7px;
   color: white;
   border-color: transparent;
-  background-color: #007C77;
+  background-color: #007c77;
   transition: ease-out 0.4s;
 }
 
-.buton:hover{
-  background-color: #59C9A5;
+.buton:hover {
+  background-color: #59c9a5;
 }

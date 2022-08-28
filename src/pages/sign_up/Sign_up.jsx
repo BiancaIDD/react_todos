@@ -6,12 +6,12 @@ export default function SignUp() {
   return (
     <div className="sign__conteiner">
       <Navbar />
-      <div className="sign__box">
-        <div className="sign__title">
+      <div className="sign__box1">
+        <div className="sign__title1">
           <img className="sign__dino" src={DinoN} />
           <h1>Sign Up</h1>
         </div>
-        <form>
+        <form className="form">
           <input className="sign__form" placeholder="Enter your name" type="text" />
           <input className="sign__form"placeholder="Enter your email" type="email" />
           <input className="sign__form"placeholder="Enter your password" type="password" />
@@ -20,7 +20,7 @@ export default function SignUp() {
             type="password"/>
           <div className="sign__other">
             <span>Other ways to enter:</span>
-            <ul className="sign__redes">
+            <ul className="sign__redes1">
               <li>
                 <svg
                   width="41"
