@@ -1,12 +1,10 @@
-
-import Landing from './landing_page/Landing'
 import './App.css';
-import About from './About/About';
+import Sign_in from './sign_in/Sign_in';
 
 function App() {
   return (
     <div className="App">
-      <About/>
+      <Sign_in/>
     </div>
   );
 }
