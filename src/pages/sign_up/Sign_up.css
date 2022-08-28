@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sign__conteiner{
+  width: 100%;
+  height: 100vh;
+  background-color: #9F86C0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px
+}
+
+.sign__title{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 120px;
+}
+
+.sign__box{
+  width: 35%;
+  height: 450px;
+  display: flex;
+  background-color:#D4E09B ;
+  flex-direction:column;
+  align-items: center;
+  font-size: large;
+  border-radius: 25px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: medium;
+  gap: 15px;
+}
+
+.sign__form{
+  width:300px ;
+  height: 30px;
+}
+
+.sign__other{
+  height: 70px;
+  display: flex;
+  background-color: #F2F2F2;
+  border-radius: 30px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sign__redes{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 30px;
+  width: 250px;
+}
+
+.sign__redes > li{
+  list-style-type: none;
+  flex: 1;
+}
+
+.sign__dino{
+  width: 103px;
+  height: 74px;
+}
+
+.buton{
+  font-size: large;
+  width: 200px;
+  height: 40px;
+  border-radius: 7px;
+  color: white;
+  border-color: transparent;
+  background-color: #007C77;
+  transition: ease-out 0.4s;
+}
+
+.buton:hover{
+  background-color: #59C9A5;
+}
